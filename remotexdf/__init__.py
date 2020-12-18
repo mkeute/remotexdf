@@ -8,5 +8,5 @@ try:
     __version__ = get_distribution(__name__).version
 except DistributionNotFound:  # package is not installed
     __version__ = None
-from .remotexdf import load_remotexdf, resolve_streams, match_streaminfos
+from .remotexdf import load_remotexdf, client, resolve_streams, match_streaminfos
 
